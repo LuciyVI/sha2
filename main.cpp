@@ -1,11 +1,16 @@
 #include <iostream> 
 #include <vector>
-#include <sha256.h>
+#include </home/dr3ad/repos/LychiVI/sha256/sha256.h>
 
 int main()
 {
     
-    std::str<data> = "";
-    std::cin>>data>>endl;
-    sha256_easy_hash(data))
+   char data;
+   std::cin >> data;
+   
+   void sha256_init(struct sha256_buff* data);
+   void sha256_easy_hash(uint64_t* data);
+   void update(const void* data, std::size_t size);
+   std::cout<<data<<std::endl;
+   
 }
