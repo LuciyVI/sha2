@@ -7,11 +7,11 @@
 
 int main()
 {
-sha256_buff();
+sha256_buff(data);
 void sha256_init(struct sha256_buff* buff);
 const char* str = "test";
 char hash[65] = {0};
-sha256_read(struct sha256_buff* buff, uint8_t* hash);
+void sha256_read(const struct sha256_buff* buff, uint8_t* hash);
 void sha256_init(struct sha256_buff* buff);
 sha256_easy_hash_hex(str, strlen(str), hash);
 printf("%s\n", hash);
