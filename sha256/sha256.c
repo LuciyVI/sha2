@@ -27,6 +27,8 @@
 
 #include "sha256.h"
 
+
+
 void sha256_init(struct sha256_buff* buff) {
     buff->h[0] = 0x6a09e667;
     buff->h[1] = 0xbb67ae85;
